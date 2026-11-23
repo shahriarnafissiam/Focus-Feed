@@ -1,6 +1,0 @@
-/* Reels tab and links hidden while keeping top navigation active */
-a[href*="/reel/"],
-a[href*="/reels/"],
-div[aria-label="Reels"] {
-  display: none !important;
-}
