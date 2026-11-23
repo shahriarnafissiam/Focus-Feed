@@ -1,11 +1,18 @@
 # Focus Feed (Chrome / Brave Extension)
 
+## How to download : 
+1. Open the repository Focus feed .
+2. Go to code option on the right corner .
+3. Select download zip file and download the folder named - Focus feed main.zip.
+4. Then follow the instruction how to load it into your browser .
+
 ## How to load it into your browser:
 
-1. Download and extract the ZIP file to access the `focus-feed` folder.
+1. Extract the ZIP file to access the `focus-feed` folder.
 2. Type `chrome://extensions` or `brave://extensions` into your browser's address bar and press Enter.
 3. Enable **Developer mode** (located in the top-right corner).
 4. Click the **Load unpacked** button and select the extracted `focus-feed` folder.
+
 
 ## Features (v7.0):
 - **Reels Block:** Hides Reels links/tabs.
@@ -17,6 +24,12 @@
 
 
 # Focus Feed (Chrome / Brave Extension)
+
+## কীভাবে ডাউনলোড করবেন:
+১. 'Focus feed' রিপোজিটরিটি খুলুন।
+২. ডানদিকের কোণায় থাকা 'Code' অপশনে যান।
+৩. 'Download ZIP' নির্বাচন করুন এবং 'Focus feed-main.zip' নামের ফাইলটি ডাউনলোড করুন।
+৪. এরপর, কীভাবে এটি আপনার ব্রাউজারে লোড করতে হবে, সেই সংক্রান্ত নির্দেশাবলী অনুসরণ করুন।
 
 ## কীভাবে ব্রাউজারে লোড করবেন:
 
