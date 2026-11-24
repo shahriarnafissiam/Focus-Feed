@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Focus Feed",
-  "version": "2.0",
-  "description": "Blocks Reels, toggles Clean Feed and Stories, and locks settings during preset or custom Focus Mode.",
+  "name": "Muraqabah",
+  "version": "8.1",
+  "description": "A distraction free Facebook Focus extension which has Clean Feed Mode, Hide Stories, Block Messenger with timer, and Strict Mode countdown lock.",
   "permissions": [
     "storage",
     "alarms"
@@ -14,7 +14,9 @@
   "content_scripts": [
     {
       "matches": [
-        "*://www.facebook.com/*"
+        "*://www.facebook.com/*",
+        "*://web.facebook.com/*",
+        "*://m.facebook.com/*"
       ],
       "css": [
         "style.css"
@@ -22,7 +24,7 @@
       "js": [
         "content.js"
       ],
-      "run_at": "document_idle"
+      "run_at": "document_start"
     }
   ]
 }

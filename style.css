@@ -1,6 +1,33 @@
-/* Reels tab and links hidden while keeping top navigation active */
+/* Hide Reels tab and links while keeping top navigation active */
 a[href*="/reel/"],
 a[href*="/reels/"],
 div[aria-label="Reels"] {
   display: none !important;
+}
+
+/* Clean Feed: hide posts instantly (before JS runs). The post box stays;
+   content.js hides everything after it, whatever Facebook calls it. */
+html.focusfeed-clean-feed.focusfeed-home div[role="feed"],
+html.focusfeed-clean-feed.focusfeed-home div[data-pagelet^="FeedUnit"],
+html.focusfeed-clean-feed.focusfeed-home [aria-posinset],
+[data-focusfeed-hidden] {
+  display: none !important;
+}
+
+/* Instant hard hide when Block Messenger is active */
+html.focusfeed-block-messenger a[href*="/messages"],
+html.focusfeed-block-messenger a[aria-label*="Messenger" i],
+html.focusfeed-block-messenger div[aria-label*="Messenger" i][role="dialog"],
+html.focusfeed-block-messenger div[aria-label*="Chats" i][role="dialog"],
+html.focusfeed-block-messenger div[data-pagelet*="Chat" i],
+html.focusfeed-block-messenger div[aria-label*="Chat" i] {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* Smooth transition for visible elements */
+[data-focus-feed-state="visible"] {
+  opacity: 1 !important;
+  transition: opacity 0.18s ease-in-out;
 }
