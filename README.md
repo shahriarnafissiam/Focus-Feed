@@ -1,7 +1,7 @@
-# Focus Feed (Chrome / Brave Extension)
+# Muraqabah (Chrome / Brave Extension)
 
 ## How to download : 
-1. Open the repository Focus feed .
+1. Open the repository Muraqabah .
 2. Go to code option on the right corner .
 3. Select download zip file and download the folder named - Focus feed main.zip.
 4. Then follow the instruction how to load it into your browser .
@@ -25,7 +25,7 @@
 This extension is built for people who are looking for a way to open Facebook simply to stay updated without getting pulled into endless scrolling. Many people enter Facebook just to check updates or specific pages, yet the moment they look at the home feed, they end up stuck in endless scrolling. To protect them from endless scrolling, this extension removes the home feed distraction so they can simply use the search box, search for the page they need, view its content, and stay free from endless scrolling.
 
 
-# Focus Feed (Chrome / Brave Extension)
+# Muraqabah (Chrome / Brave Extension)
 
 ## কীভাবে ডাউনলোড করবেন:
 ১. 'Focus feed' রিপোজিটরিটি খুলুন।
